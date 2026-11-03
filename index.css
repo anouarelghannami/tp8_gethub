@@ -1,0 +1,31 @@
+
+/* Changer le background */
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Animation du titre */
+h1 {
+    color: white;
+    font-size: 40px;
+    animation: fade-in 2s ease-in-out;
+}
+
+/* Animation fade-in */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
